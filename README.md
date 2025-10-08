@@ -4,7 +4,9 @@ A relatively simple setup, based on markdown files, using VitePress.
 
 ## Prereqs
 
-npm (min v. 18)
+Node.js, ver. 20 or higher
+
+npm
 
 
 ## Setup
