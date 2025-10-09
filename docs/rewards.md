@@ -22,9 +22,11 @@ Ocean assign rewards with each found block. Zappool distributes this to affected
 
 ## Optimistic Pre-Pay
 
-A submitted work share will have its full reward committed only after future 6 blocks are found. In order not to delay payouts, Zappool estimates the reward from future blocks, and account it to the users right away. So new users or newly added devices will see their rewrds right away.
+A submitted work share will have its full reward committed only after future 6 blocks are found. In order not to delay payouts, Zappool estimates the reward from future blocks, and account it to the users right away. So new users or newly added devices will see their rewards right away.
 
 This means that Zappool may pay out rewards early (earlier than it receives from the mother pool), This is a risk Zappool takes.
+
+Since the estimation is not precise, 75% of the pending earnings are considered for the next payout (the rest is not lost, but carried over, and will be accounted as blocks come in).
 
 
 ## Fees

@@ -16,14 +16,14 @@ Setting up Zappool is very simple: you need to set the pool params in your BitAx
 ## Setup:
 
 ```
-Stratum Host:   zappool.org
+Stratum Host:   pool.zappool.org
 Stratum Port:   23334
 Stratum User:   Put your Nostr npub here!
 ```
 
 Example:
 
-![Sample config](./media/config_bitaxe_20251007.png "Sample config")
+![Sample config](./media/config_bitaxe_20251009.png "Sample config")
 
 For more details (on Nostr identity, verifying the setup, device names. etc.).
 see [Howto](howto#setup)

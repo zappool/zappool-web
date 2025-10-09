@@ -12,6 +12,8 @@ npm
 ## Setup
 
 ```
+node -v
+npm --version
 npm install
 ```
 

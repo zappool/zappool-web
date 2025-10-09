@@ -18,14 +18,15 @@ A Nostr account, that can receive zaps / lightning payments (with an associated 
 ### Set the following parameters:
 
 ```
-Stratum Host:   zappool.org
-Stratum Port:   23334
-Stratum User:   Put your Nostr npub here!
+Stratum Host:      pool.zappool.org
+Stratum Port:      23334
+Stratum User:      Put your Nostr npub here!
+Stratum Password:  Put anything (e.g. 12345)
 ```
 
 Example:
 
-![Sample config](./media/config_bitaxe_full_20251007.png "Sample config")
+![Sample config](./media/config_bitaxe_full_20251009.png "Sample config")
 
 ### Set the Fallback host
 
