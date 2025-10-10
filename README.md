@@ -12,6 +12,7 @@ npm
 ## Setup
 
 ```
+sudo apt-get install nodejs npm
 node -v
 npm --version
 npm install
@@ -23,7 +24,7 @@ npm install
 npm run docs:dev
 ```
 
-## Deploy
+## Build
 
 ```
 npm run docs:build
