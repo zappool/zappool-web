@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Zap!Pool"
+  name: "¡ZapPool!"
   text: "Sats from your BitAxe!"
   tagline: "A proxy mining pool for small home miner devices, with Nostr integration"
   actions:

@@ -28,6 +28,12 @@ Example:
 
 ![Sample config](./media/config_bitaxe_full_20251009.png "Sample config")
 
+Note: other miners may require the stratum server in this format:
+
+```
+stratum+tcp://pool.zappool.org:23334
+```
+
 ### Set the Fallback host
 
 Set a fallback server, e.g. your previously used server, for the case whan Zappool is not available.
