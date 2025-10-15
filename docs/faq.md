@@ -67,6 +67,14 @@ Here is the absolute starter kit:
 But please check the rest of the docs, and the basics of the wallet and the BitAxe.
 
 
+## Is Zappool open source?
+
+Yes, some parts of the software can be found here:
+[github.com/zappool](https://github.com/zappool).
+
+Zappool consists of several backend components, not all of which will be opened, but we plan to publish more of them in the near future.
+
+
 ## What block template is used?
 
 Zappool controls the block template being used (using Ocean with Datum, the runner of Datum is in control of the block template).
@@ -90,14 +98,6 @@ In solo mining most miners get nothing most of the time, but in the very unlikel
 Yes you can. The focus is on small miners, but it can work with larger ones as well.
 
 
-## Is Zappool open source?
-
-Yes, some parts of the software can be found here:
-[github.com/zappool](https://github.com/zappool).
-
-Zappool consists of several backend components, not all of which will be opened, but we plan to publish more of them in the near future.
-
-
 ## TODO
 
 Same Nostr account or new
@@ -109,5 +109,3 @@ Fees
 Alternative pools (public-pool, Braiins, ...)
 
 Accounting, fluctuation
-
-Open source?
