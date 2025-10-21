@@ -21,7 +21,7 @@ Use your Bitaxe to generate daily sats, ready for zapping!
 
 # Why?
 
-Traditionally BitAxes are used in solo mode, which means most users don't get any earnings from them (but who is lucky can get a huge win). Pooled mining can be more complicated to set up, and since the rewards are quite small, may not worth the effort.
+Traditionally Bitaxes are used in solo mode, which means most users don't get any earnings from them (but who is lucky can get a huge win). Pooled mining can be more complicated to set up, and since the rewards are quite small, may not worth the effort.
 
 Zaps on Nostr are a perfect use case for the mined sats, and if the setup is easy, your Bitaxe becomes a zap mine!
 

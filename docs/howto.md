@@ -28,6 +28,8 @@ Example:
 
 ![Sample config](./media/config_bitaxe_full_20251009.png "Sample config")
 
+Note: when typing, watch out for the double-P and double-O in "zappool".
+
 Note: other miners may require the stratum server in this format:
 
 ```
