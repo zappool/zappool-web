@@ -22,7 +22,7 @@ Yes. We use __10 sats__ as the minimum payout amount. If that amount is not reac
 
 ## Why does it take so long to find a work share?
 
-Ocean uses a relatively large share difficulty (128k). Modern industrial miners can solve this difficulty in seconds, but for a lower-hashrate BitAxe it takes minutes. The time has a wide variation due to luck, it can be as low as less than a minute, but it can be as high as 20-30 minutes. This, however does not affect the overall performance of the miner.
+Ocean uses a relatively large share difficulty (128k). Modern industrial miners can solve this difficulty in seconds, but for a lower-hashrate Bitaxe it takes minutes. The time has a wide variation due to luck, it can be as low as less than a minute, but it can be as high as 20-30 minutes. This, however does not affect the overall performance of the miner.
 
 
 ## Is Zappool custodial?
@@ -52,7 +52,7 @@ It's possible to set a lightning address as username (instead of an npub), with 
 Example: `LA:zappool@blink_sv` or `LA:zappool@blink_sv.device`.
 
 
-## Get me up to speed from zero! I don't know anything about Lightning or Nostr, I just have a BitAxe
+## Get me up to speed from zero! I don't know anything about Lightning or Nostr, I just have a Bitaxe
 
 We encourage you to start learning about Lightning and Nostr!
 
@@ -60,11 +60,11 @@ Here is the absolute starter kit:
 
 - Install [Wallet of Satoshi](https://walletofsatoshi.com/) lightning wallet
 - Take your lightning address from WoS (Receive tab), ex. `something@walletofsatoshi.com`
-- Open your BitAxe config
+- Open your Bitaxe config
 - For Stratum host and port enter `pool.zappool.org` and `23334`
 - For username enter your lightning address, with "LA:" in front and all '.' dots changed to '_' underscores -- ex. `LA:something@walletofsatoshi_com`
 
-But please check the rest of the docs, and the basics of the wallet and the BitAxe.
+But please check the rest of the docs, and the basics of the wallet and the Bitaxe.
 
 
 ## Is Zappool open source?

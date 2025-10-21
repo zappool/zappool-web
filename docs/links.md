@@ -4,7 +4,7 @@ outline: deep
 
 # Links
 
-- BitAxe - the Open Source Miner - [bitaxe.org](https://bitaxe.org/)
+- Bitaxe - the Open Source Miner - [bitaxe.org](https://bitaxe.org/)
 
 - OCEAN Pool - the decentralized mining pool - [ocean.xyz](https://ocean.xyz/)
 

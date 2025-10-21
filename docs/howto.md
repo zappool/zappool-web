@@ -6,14 +6,14 @@ outline: deep
 
 ## Prerequisites
 
-A working BitAxe, or similar home miner.
+A working Bitaxe, or similar home miner.
 
 A Nostr account, that can receive zaps / lightning payments (with an associated lightning address, "lud16", settable in almost all Nostr clients).
 
 
 ## Setup
 
-### Open the __Pool Config__ page of your BitAxe
+### Open the __Pool Config__ page of your Bitaxe
 
 ### Set the following parameters:
 
@@ -46,7 +46,7 @@ Set a fallback server, e.g. your previously used server, for the case whan Zappo
 
 ### Check the __Dashboard__
 
-Open the dashboard of the BitAxe.
+Open the dashboard of the Bitaxe.
 
 There should be no warning about unreachable stratum server.
 

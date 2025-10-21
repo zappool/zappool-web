@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "¡ZapPool!"
-  text: "Sats from your BitAxe!"
+  text: "Sats from your Bitaxe!"
   tagline: "A proxy mining pool for small home miner devices, with Nostr integration"
   actions:
     - theme: brand
@@ -19,7 +19,7 @@ hero:
 
 features:
   - title: Optimized for home miner devices
-    details: You can get daily small-amount payouts from a small-power home miner (BitAxe or similar).
+    details: You can get daily small-amount payouts from a small-power home miner (Bitaxe or similar).
   - title: 100% Permissionless
     details: No need for any account, email, or KYC.
   - title: Nostr integration

@@ -40,7 +40,7 @@ The fees of the lighting payouts is deducted from the rewards.
 
 ## Fluctuations due to block randomness
 
-If a user has a constant hashrate (e.g. an always-on BitAxe), the stream of payouts will be relatively consistent. However, fluctuations may happen, due to the random nature of how blocks are found. This affects how Ocean attributes rewards, and how Zappool estimates pending rewards (see above). In the long run the sums compensate, computing the next payout considers the totals (total rewards earned minus total payouts).
+If a user has a constant hashrate (e.g. an always-on Bitaxe), the stream of payouts will be relatively consistent. However, fluctuations may happen, due to the random nature of how blocks are found. This affects how Ocean attributes rewards, and how Zappool estimates pending rewards (see above). In the long run the sums compensate, computing the next payout considers the totals (total rewards earned minus total payouts).
 
 If you hashrate fluctuates, the payout will follow it, but not exactly, and with some delay.
 
