@@ -15,7 +15,7 @@ export default defineConfig({
       { text: 'QuickStart', link: '/quick' },
       { text: 'HowTo', link: '/howto' },
       { text: 'FAQ', link: '/faq' },
-      { text: 'Dashboard', link: 'https://dashboard.zappool.org/' }
+      { text: 'Dashboard', link: 'https://dashboard.zappool.org/' },
     ],
 
     sidebar: [
@@ -40,7 +40,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/zappool/zappool-web' },
+      { icon: 'github', link: 'https://github.com/zappool/' },
+      { icon: 'twitter', link: 'https://nostr.eu/npub17qt0gf99uxe3n3aa8nj93hspe0x3vfn7wwmv42adfc96y8g8ngcqpakg7l' },
     ]
   },
 })

@@ -8,4 +8,6 @@ outline: deep
 
 - OCEAN Pool - the decentralized mining pool - [ocean.xyz](https://ocean.xyz/)
 
-- Public-pool - solo mining pool, popular among Bitaxers - [web.public-pool.io](https://web.public-pool.io/)
+- Zappool [sources](https://github.com/zappool/)
+
+- [Zappool Nostr account](https://nostr.eu/npub17qt0gf99uxe3n3aa8nj93hspe0x3vfn7wwmv42adfc96y8g8ngcqpakg7l)
