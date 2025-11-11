@@ -8,7 +8,7 @@ outline: deep
 
 ### When is the payout?
 
-Payouts are scheduled once daily, at noon UTC time.
+Payouts are scheduled once daily, __at noon UTC time__.
 
 
 ### Is there a minimum payout amount?
@@ -31,6 +31,14 @@ Here is the absolute starter kit:
 But please check the rest of the docs, and the basics of the wallet and the Bitaxe.
 
 
+### What fees are collected.
+
+Zappool does not take any fees (as of now, Zappool beta).
+Note however, that Ocean pool takes its fee -- 1% (for users with Datum).
+
+We don't plan to charge a fee, but it may happen in the future.
+
+
 ### Where I can see stats?
 
 Here: https://dashboard.zappool.org/
@@ -42,7 +50,7 @@ There is also an option to filter to your own stats (you have to enter your npub
 
 It depends on your privacy-paranoia level.
 
-The recommended simple way is to use your 'regular' Nostr account. However, it will be visible that you are mining on Zappool (your payour zaps, etc.). For most, you should be proud of this, not hide it!
+The recommended simple way is to use your 'regular' Nostr npub. However, it will be visible that you are mining on Zappool (your payour zaps, etc.). For most, you should be proud of this, not hide it!
 
 If privacy is important, you can easily create a new Nostr identity, link it with a Lightning wallet, and use that with Zappool. Don't forget to back up your keys, though!
 
@@ -85,7 +93,7 @@ Zappool is currently __beta__ (as of Nov'25).
 
 ### Is Zappool custodial?
 
-Yes, but for short time and amounts. Zappool receives payouts from Ocean, and pays out to users daily. Should Zapool rug you or fail, you risk one day worth of mining rewards, which is typically a quite small amount.
+Yes, but for short time and small amounts. Zappool receives payouts from Ocean, and pays out to users daily. Should Zapool rug you or fail, you risk one day worth of mining rewards, which is typically a quite small amount.
 
 
 ### Why OCEAN is used as a mother pool?
@@ -96,6 +104,8 @@ There are two main reasons:
 - Ocean is __permissionless__.
 
 Moreover, Ocean allows custom block templates as well.
+
+Also note that for Lightning payouts (which Zappool uses) Ocean is custodial.
 
 
 ### Is Zappool open source?
@@ -131,24 +141,29 @@ For _pooled_ mining, I can recommend __Braiins__ ([pool.braiins.com](https://poo
 (Trivia: Did you know that they were the first mining pool ever?)
 
 
+### Can I make even on my Bitaxe (using Zappool)?
+
+Short answer: no. Even with pooled mining, you will not be able to recover the cost of your Bitaxe; if you are lucky, you may earn enough for the electricity cost.
+
+Bitaxe is not about making money from mining, but about mining decentralization and learning. If you want profit, you need big miners, and access to a huge amounts of cheap electricity, and face a fierce competition.
+
+So forget about profits, relax, and zap away your earning sats!
+
+
 ## TODO
-
-Bridge loan by Zappool (not if daily payments)
-
-Fees
 
 Accounting, fluctuation
 
-Proxy pool - what, why?
-
-Stratum v2?
-
 Privacy
+
+Bridge loan by Zappool (not if daily payments)
+
+Proxy pool - what, why?
 
 Who, History
 
-Can I make even on my Bitaxe?
-
-Why, how to make money
-
 Donate (your hash)
+
+Stratum v2?
+
+Why, money for the pool?
