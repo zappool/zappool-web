@@ -54,6 +54,8 @@ The recommended simple way is to use your 'regular' Nostr npub. However, it will
 
 If privacy is important, you can easily create a new Nostr identity, link it with a Lightning wallet, and use that with Zappool. Don't forget to back up your keys, though!
 
+See also: [privacy](faq.md#what-are-the-privacy-considerations).
+
 
 ### Why does it take so long to find a work share?
 
@@ -84,6 +86,17 @@ No. Zappool uses pooled mining, not solo mining, you can't have both.
 In solo mining most miners get nothing most of the time, but in the very unlikely case someone finds a block, he gets the whole block reward. In the pooled mining (used by most miners), miners share the rewards proportionally.
 
 
+### What are the privacy considerations?
+
+If you are worried about privacy, consider using a custom Nostr identity for this, [see above](faq.md#should-i-use-my-personal-nostr-account-or-create-a-new).
+
+Zappool can see your IP, use VPN if concerned (router level).
+
+Zappool does not store client IP addresses.
+
+Zappool stores the configured miner username (and device name), and time for each submitted work share, for operational accounting.
+
+
 ## About Zappool
 
 ### What is the status of this project?
@@ -105,7 +118,7 @@ There are two main reasons:
 
 Moreover, Ocean allows custom block templates as well.
 
-Also note that for Lightning payouts (which Zappool uses) Ocean is custodial.
+Also note that for Lightning payouts (which Zappool uses) Ocean is plain custodial.
 
 
 ### Is Zappool open source?
@@ -125,6 +138,41 @@ We try to stay away of the Core-vs-Knots drama (please don't start a flame war, 
 Zappool currently uses a Bitcoin Core node (v. 29, with customized config).
 
 In the future we may offer different block template options (e.g. Bitcoin Core and Knots).
+
+
+### What's the goal of this project?
+
+Several goals:
+- Offer a very low-barrier way for hoome miners to earn daily sats (as opposed to lottery mining)
+- Demonstrate the feasability of the concept by growing to a respectable number of real users (a thousand npubs?)
+- Prove the value of the Nostr-homeminers synergy
+- Nudge other pools towards Nostr integration
+- Show a working example of a proxy-pool, and help others start one (currently I don't know of any other one)
+- Encourage both Nostr and Bitaxe usage
+
+
+### Who is behind Zappool?
+
+[Optout](https://nostr.eu/npub1kxgpwh80gp79j0chc925srk6rghw0akggduwau8fwdflslh9jvqqd3lecx)
+
+
+### What's the story behind Zappool?
+
+After looking at the [Hashpool](https://hashpool.dev) project
+(of [vnprc](https://nostr.eu/npub16vzjeglr653mrmyqvu0trwaq29az753wr9th3hyrm5p63kz2zu8qzumhgd)),
+I saw two avenues:
+
+1. Build a new pool from scratch, starting with small hashrates (=very long times for finding a block), and bridge the long times with a local market for hash-ehash (custodial but blinded, option to early exit via market)
+
+2. Create a proxy pool, based on Ocean, with periodic payouts from Ocean.
+
+Thinking about 2. I realized that there is not much need for a hash market, nor for ecash in fact, as there is no long period to bridge.
+
+I turned my focus to a proxy pool, which is old-style custodial, but only for a day (and small user amounts). I also realized there is a lot of synergy with Nostr!
+
+For home miners, zapping away is a perfect and fun usecase of the the small daily payouts. Miner ID being a Nostr ID also opens up many possibilites -- payout to LN address of the npub, payout as zap, donation to someone else's npub, payout as nutzap, nostr login to your bitaxe, etc.
+
+I put a proof-of-concept together, and launched the beta version (in October 2025).
 
 
 ## General mining-related
@@ -150,20 +198,23 @@ Bitaxe is not about making money from mining, but about mining decentralization 
 So forget about profits, relax, and zap away your earning sats!
 
 
+### What is a Proxy Pool?
+
+A proxy pool appears to a 'mother pool' as a mining client -- submits work shares and receives earnings. To its clients the proxy pool appears as a mining pool: it provides work, accepts shares, and distributes earnings.
+
+The proxy pool forwards work shares to the mother pool, and disrtributes its earnings to its clients.
+
+A proxy pool makes sense if its mode of operation -- e.g. payout mechanism -- differs from the mother pool.
+
+
 ## TODO
 
 Accounting, fluctuation
 
-Privacy
-
 Bridge loan by Zappool (not if daily payments)
-
-Proxy pool - what, why?
-
-Who, History
 
 Donate (your hash)
 
 Stratum v2?
 
-Why, money for the pool?
+money for the pool?
