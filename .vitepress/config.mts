@@ -14,7 +14,8 @@ export default defineConfig({
       { text: 'About', link: '/what' },
       { text: 'QuickStart', link: '/quick' },
       { text: 'HowTo', link: '/howto' },
-      { text: 'FAQ', link: '/faq' }
+      { text: 'FAQ', link: '/faq' },
+      { text: 'Dashboard', link: 'https://dashboard.zappool.org/' }
     ],
 
     sidebar: [
