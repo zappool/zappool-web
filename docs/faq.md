@@ -211,9 +211,13 @@ A proxy pool makes sense if its mode of operation -- e.g. payout mechanism -- di
 
 Accounting, fluctuation
 
+Why is it paying less than Braiin?
+
 Bridge loan by Zappool (not if daily payments)
 
 Donate (your hash)
+
+Pool server in Europe/America
 
 Stratum v2?
 
