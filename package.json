@@ -1,4 +1,6 @@
 {
+  "description": "Zappool.org webpage; A proxy mining pool for small home miner devices, with Nostr integration.",
+  "version:": "1.0.0",
   "devDependencies": {
     "vitepress": "^2.0.0-alpha.12"
   },
