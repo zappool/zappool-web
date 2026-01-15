@@ -115,6 +115,11 @@ Consider giving back to the creators of Bitaxe, Nostr, Lightning, etc.
 Hint: Zappool's npub is `npub17qt0gf99uxe3n3aa8nj93hspe0x3vfn7wwmv42adfc96y8g8ngcqpakg7l`, wink-wink ;)
 
 
+### Is it possible to direct the zaps to a Nostr note (instead of the npub)?
+
+No, that's currently not supported (but it may be in the future).
+
+
 ## About Zappool
 
 ### What is the status of this project?
@@ -167,7 +172,7 @@ The pool server is located in North America, Eastern side. In the future we may 
 
 There's more than one goal:
 
-- Offer a very low-barrier way for hoome miners to earn daily sats (as opposed to lottery mining)
+- Offer a very low-barrier way for home miners to earn daily sats (as opposed to lottery mining)
 - Demonstrate the feasability of the concept by growing to a respectable number of real users (a thousand npubs?)
 - Prove the value of the Nostr-homeminers synergy
 - Nudge other pools towards Nostr integration
@@ -198,6 +203,14 @@ I turned my focus to a proxy pool, which is old-style custodial, but only for a 
 For home miners, zapping away is a perfect and fun usecase of the the small daily payouts. Miner ID being a Nostr ID also opens up many possibilites -- payout to LN address of the npub, payout as zap, donation to someone else's npub, payout as nutzap, nostr login to your bitaxe, etc.
 
 I put a proof-of-concept together, and launched the beta version in October 2025.
+
+
+### Which account sends out the zaps?
+
+The payout zaps are sent by this npub:
+[`npub13dhzxxqatedrn2ccxnelgahr82kcaadz0ydtqutesztvgu3fvfash5k4ya`](https://nostr.eu/npub13dhzxxqatedrn2ccxnelgahr82kcaadz0ydtqutesztvgu3fvfash5k4ya).
+This is a technical account, different from the Zappool Nostr account([`npub17qt0gf99uxe3n3aa8nj93hspe0x3vfn7wwmv42adfc96y8g8ngcqpakg7l`](https://nostr.eu/npub17qt0gf99uxe3n3aa8nj93hspe0x3vfn7wwmv42adfc96y8g8ngcqpakg7l)).
+Zaps can be seen e.g. here: https://www.fatzaps.com/npub13dhzxxqatedrn2ccxnelgahr82kcaadz0ydtqutesztvgu3fvfash5k4ya`
 
 
 ### Are there any blocks found by Zappool miners?
