@@ -210,7 +210,7 @@ I put a proof-of-concept together, and launched the beta version in October 2025
 The payout zaps are sent by this npub:
 [`npub13dhzxxqatedrn2ccxnelgahr82kcaadz0ydtqutesztvgu3fvfash5k4ya`](https://nostr.eu/npub13dhzxxqatedrn2ccxnelgahr82kcaadz0ydtqutesztvgu3fvfash5k4ya).
 This is a technical account, different from the Zappool Nostr account([`npub17qt0gf99uxe3n3aa8nj93hspe0x3vfn7wwmv42adfc96y8g8ngcqpakg7l`](https://nostr.eu/npub17qt0gf99uxe3n3aa8nj93hspe0x3vfn7wwmv42adfc96y8g8ngcqpakg7l)).
-Zaps can be seen e.g. here: https://www.fatzaps.com/npub13dhzxxqatedrn2ccxnelgahr82kcaadz0ydtqutesztvgu3fvfash5k4ya`
+Zaps can be seen e.g. here: https://www.fatzaps.com/npub13dhzxxqatedrn2ccxnelgahr82kcaadz0ydtqutesztvgu3fvfash5k4ya .
 
 
 ### Are there any blocks found by Zappool miners?
