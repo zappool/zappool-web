@@ -24,7 +24,7 @@ features:
     details: No need for any account, email, or KYC.
   - title: Nostr integration
     details: Integrated with Nostr, you can use a Nostr identity for your miner and the pool.
-  - title: Based on OCEAN
-    details: Zappool uses OCEAN -- the most decentralized mining pool -- as its mother pool.
+  - title: Based on Ocean
+    details: Zappool uses Ocean -- the most decentralized mining pool -- as its mother pool. Other options may come in the future.
 ---
 

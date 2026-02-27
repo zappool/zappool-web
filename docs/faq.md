@@ -129,19 +129,24 @@ Zappool is currently live (as of Jan'26). The beta version launched in October 2
 
 ### Is Zappool custodial?
 
-Yes, but for short time and small amounts. Zappool receives payouts from Ocean, and pays out to users daily. Should Zapool rug you or fail, you risk one day worth of mining rewards, which is typically a rather small amount.
+Yes, but for short time and small amounts. Zappool receives payouts from the upstream pool, and pays out to users daily. Should Zapool rug you or fail, you risk one day worth of mining rewards, which is typically a rather small amount.
 
 
 ### Why Ocean is used as mother pool?
 
-There are two main reasons:
+Update: Supporting Braiins as an alternative upstream pool is being considered.
 
-- Ocean pool is large enough, with well over __1%__ of global hashrate, finding blocks daily on average (in the range of 8-14 blocks per week).
+These are the reasons for using Ocean:
+
+- It is large enough, with over __1%__ of global hashrate, finding blocks daily on average (in the range of 8-14 blocks per week).
 - Ocean is __permissionless__ and private.
+- It supports Lightning payments.
+- It supports custom block templates.
 
-Moreover, Ocean allows custom block templates as well.
+However, it's also important to note:
 
-Also note that for Lightning payouts (which Zappool uses) Ocean is plain custodial.
+- It's not possible to detach from Ocean's strong affiliation with filtering, Knots, Luke Dashjr and the BIP110 softfork. Ultimately Zappool payouts come from at least some Knots-controlled blocks. Even though Zappool uses its own template (relevant only if Zappool finds a block), and most Ocean blocks are special-template not Ocean's Knots (though it's unknown what other miners use).
+- For Lightning payouts Ocean is plain custodial.
 
 
 ### Is Zappool open source?
@@ -158,7 +163,9 @@ Zappool controls the block template being used (using Ocean with Datum, the runn
 
 We try to stay away of the Core-vs-Knots drama (please don't start a flame war, this is a loud-but-insignificant debate).
 
-Zappool currently uses a Bitcoin Core node (ver. 29, with customized config).
+Zappool currently uses a Bitcoin Core node (v29, with customized config).
+
+Note that this block template is relevant only when Zappool finds a block, which given the minuscule hashrates, is extremly improbable.
 
 In the future we may offer different block template options (e.g. Bitcoin Core and Knots).
 
@@ -209,7 +216,8 @@ I put a proof-of-concept together, and launched the beta version in October 2025
 
 The payout zaps are sent by this npub:
 [`npub13dhzxxqatedrn2ccxnelgahr82kcaadz0ydtqutesztvgu3fvfash5k4ya`](https://nostr.eu/npub13dhzxxqatedrn2ccxnelgahr82kcaadz0ydtqutesztvgu3fvfash5k4ya).
-This is a technical account, different from the Zappool Nostr account([`npub17qt0gf99uxe3n3aa8nj93hspe0x3vfn7wwmv42adfc96y8g8ngcqpakg7l`](https://nostr.eu/npub17qt0gf99uxe3n3aa8nj93hspe0x3vfn7wwmv42adfc96y8g8ngcqpakg7l)).
+This is a technical account, different from the Zappool Nostr account
+([`npub17qt0gf99uxe3n3aa8nj93hspe0x3vfn7wwmv42adfc96y8g8ngcqpakg7l`](https://nostr.eu/npub17qt0gf99uxe3n3aa8nj93hspe0x3vfn7wwmv42adfc96y8g8ngcqpakg7l)).
 Zaps can be seen e.g. here: https://www.fatzaps.com/npub13dhzxxqatedrn2ccxnelgahr82kcaadz0ydtqutesztvgu3fvfash5k4ya .
 
 
