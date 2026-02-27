@@ -8,7 +8,11 @@ outline: deep
 
 ### Improved Nostr
 
-Improved Nostr support. Improved user dashboard and config.
+Improved Nostr support. User settings. Improved user dashboard.
+
+### Braiins pool
+
+Support Braiins as upstream pool next to or instead of Ocean.
 
 ### Cashu support
 

@@ -12,7 +12,7 @@ server is used to hand out work to the miners, and forward results to Ocean.
 It also performs username conversion (proxy-mother pool), and has hooks to save work for accounting.
 
 __Ligtning Node__
-Used to receive payments from Ocean as well as to send out to users.
+Used to receive payments from upstream as well as to send out to users.
 
 __Bitcoin Node__
 To service Datum and the LN node.

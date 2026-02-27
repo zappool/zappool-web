@@ -11,7 +11,7 @@ Some details about reward accounting and fees.
 
 In Zappool, whatever the group of miners earn at Ocean, is distributed among them. The reward is distributed proportionally.
 
-- What Zappool receives from Ocean, is distributed to the miners
+- What Zappool receives from upstream, is distributed to the miners
 - Zappool does not charge any additional fees, but Ocean takes some fees, and the lighting payments also have some fees.
 
 
