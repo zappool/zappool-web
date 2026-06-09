@@ -13,3 +13,5 @@ outline: deep
 - Zappool [sources](https://github.com/zappool/)
 
 - [Zappool Nostr account](https://nostr.eu/npub17qt0gf99uxe3n3aa8nj93hspe0x3vfn7wwmv42adfc96y8g8ngcqpakg7l)
+
+- [Presentation at Freedom Tech Summit 2026](/assets/Zappool_FTSPrague_202606_4.260609.pdf "Pres PDF")
